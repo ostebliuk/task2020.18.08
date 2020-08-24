@@ -1,9 +1,6 @@
 HOW TO USE
 
-  1. Insert 
-  <link rel="stylesheet" href="styles.css">
-  into your index.html <head> section
-  2. Insert
+  Insert
   <script src="modal.js"></script>
   into your index.html <body> section
   
