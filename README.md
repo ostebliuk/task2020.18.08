@@ -2,7 +2,7 @@ HOW TO USE
 
   Insert
   <script src="modal.js"></script>
-  into your index.html <body> section
+  into your index.html "body" section
   
 DESCRIPTION
 
