@@ -2,7 +2,7 @@ HOW TO USE
 
   Insert
   <script defer src='https://ostebliuk.github.io/task2020.18.08/src/modal.js'></script>
-  into your index.html "body" section
+  into your index.html
   
 DESCRIPTION
 
