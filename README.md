@@ -1,6 +1,7 @@
 HOW TO USE
 
-  Insert
+  1. Download and put "src" folder into your project folder. 
+  2. Insert
   <script src="modal.js"></script>
   into your index.html "body" section
   
