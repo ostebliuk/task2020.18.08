@@ -6,6 +6,11 @@ HOW TO USE
   
   Note. We're using defer instead of async here because defer waits until DOM has been parsed while async doesn't wait for that and fires right away. Since we need to work with DOM it this task, defer is the way to go.
   
+  In case you need to run it locally, download "src" folder, put it to your project's folder and change this line to:
+  <script defer src='src/modal.js'></script>
+  and change line #5 in modal.js to:
+  link.href = 'src/styles.css'
+  
 DESCRIPTION
 
   1. styles.css
