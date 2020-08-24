@@ -4,6 +4,8 @@ HOW TO USE
   <script defer src='https://ostebliuk.github.io/task2020.18.08/src/modal.js'></script>
   into your index.html
   
+  Note. We're using defer instead of async here because defer waits until DOM has been parsed while async doesn't wait for that and fires right away. Since we need to work with DOM it this task, defer is the way to go.
+  
 DESCRIPTION
 
   1. styles.css
