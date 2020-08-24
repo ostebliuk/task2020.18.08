@@ -1,8 +1,7 @@
 HOW TO USE
 
-  1. Download and put "src" folder into your project folder. 
-  2. Insert
-  <script src="modal.js"></script>
+  Insert
+  <script defer src='https://ostebliuk.github.io/task2020.18.08/src/modal.js'></script>
   into your index.html "body" section
   
 DESCRIPTION
