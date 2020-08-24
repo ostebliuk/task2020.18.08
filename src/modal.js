@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const link = document.createElement('link')
   link.rel = 'stylesheet'
   link.type = 'text/css'
-  link.href = 'src/styles.css'
+  link.href = 'https://ostebliuk.github.io/task2020.18.08/src/styles.css'
   document.head.appendChild(link)
 
   const button = document.createElement('button');
