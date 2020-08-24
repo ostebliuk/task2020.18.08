@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
   button.id = 'my-button'
   button.textContent = 'Pixibo Modal'
   button.className = 'button-style'
-  button.onclick = () => modal.style.display = "block"
+  button.onclick = () => modal.style.display = 'block'
 
   const modal = document.createElement('div');
   modal.type = 'modal-window'
@@ -27,11 +27,14 @@ document.addEventListener('DOMContentLoaded', () => {
   const closeButton = document.createElement('span')
   closeButton.className = 'close'
   closeButton.textContent = 'x'
+  closeButton.onclick = () => modal.style.display = 'none'
 
   window.onclick = (e) => {
-    if (e.target === modal || e.target === closeButton) {
+    if (e.target === modal) {
       modal.style.display = 'none'
     }
   }
-  document.querySelector('#pixiboTest').appendChild(button).appendChild(modal).appendChild(modalContent).append(closeButton, text)
+  const pixibo = document.querySelector('#pixiboTest')
+  pixibo.appendChild(button)
+  pixibo.appendChild(modal).appendChild(modalContent).append(closeButton, text)
 }, false)
